@@ -2,3 +2,11 @@ body, html {
     margin: 0 !important;
     padding: 0 !important;
 }
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 20px 50px;
+    background: black;
+    color: white;
+}
