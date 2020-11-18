@@ -28,11 +28,11 @@ section {
 section .section-title {
     position: absolute;
     top: -100px;
-    width: 200px;
+    width: 300px;
     text-align: center;
     margin: 20px;
     margin-top: 50px;
-    padding: 30px;
+    padding: 10px 30px;
     background: black;
     color: white;
     box-shadow: 0 13px 20px #777;
@@ -42,9 +42,10 @@ section .section-title {
 section .section-body {
     padding: 50px;
     padding-top: 125px;
+    height: auto;
 }
 
-code {
+
+pre {
     background: white;
-    padding: 10px;
 }
