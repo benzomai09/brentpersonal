@@ -3,7 +3,7 @@
 
 ====================================*/
 
-var app = angular.Module("brentApp", ['ngRoute']);
+var app = angular.Module("brentApp", []);
 
 app.controller('homeCtrl', function($scope, $http, $timeout) {
     console.log("Yey!");
