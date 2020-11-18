@@ -3,7 +3,7 @@
 
 ====================================*/
 
-var app = angular.Module("brentApp", []);
+var app = angular.module("brentApp", []);
 
 app.controller('homeCtrl', function($scope, $http, $timeout) {
     console.log("Yey!");
